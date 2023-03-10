@@ -1,0 +1,53 @@
+body{
+  background-color: #282c34;
+  color:white;
+}
+.App{
+  width:35em;
+  height:20em;
+  background-color:darkslategrey;
+  margin-top:15em;
+  margin-left:38em;
+  border-radius: 3ch;
+}
+.question-count{
+  color:aquamarine;
+  margin-left:2.5em;
+  padding-top:3em;
+  font-size:1.9em;
+}
+.question-text{
+  color:aquamarine;
+  margin-left:3em;
+  padding-top:1em;
+  font-size:1.4em;
+  width:10em;
+}
+
+.answer-section{
+  display:flex;
+  flex-direction: column;
+  width:170px;
+  font-size: 1.4em;
+  border-radius: 1ch;
+  margin-left:15em;
+  margin-top:-9em;
+  
+}
+button{
+   height:45px;
+   justify-content: space-around;
+   margin-bottom:1em;
+   border-style: none;
+   background-color: aquamarine;
+   color:black;
+   border-radius: 2ch;
+}
+button:hover{
+  background-color: darkseagreen;
+}
+.score-section{
+  font-size:2em;
+  text-align: center;
+  padding-top:4em;
+}
